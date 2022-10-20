@@ -1,5 +1,5 @@
 {
-    "name": "lynx39/lara-pdf-merger",
+    "name": "jidagob/lara-pdf-merger",
     "description": "",
     "keywords": ["merger","merge","pdf","manage","paginate", "laravel"],
     "license" : [
@@ -21,7 +21,7 @@
     "homepage" : "https://github.com/adriallongarriu/lara-pdf-merger",
     "autoload": {
         "psr-0": {
-            "LynX39\\LaraPdfMerger": "src/"
+            "Jidagob\\LaraPdfMerger": "src/"
         }
     }
 }

@@ -24,17 +24,17 @@ Require this package in your composer.json and update composer.
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 
-    LynX39\LaraPdfMerger\PdfMergerServiceProvider::class,
+    Jidagob\LaraPdfMerger\PdfMergerServiceProvider::class,
 
 You can optionally use the facade for shorter code. Add this to your facades:
 
-    'PdfMerger' => LynX39\LaraPdfMerger\Facades\PdfMerger::class,
+    'PdfMerger' => Jidagob\LaraPdfMerger\Facades\PdfMerger::class,
 
 ## Using
 
 ```php
 
-$pdf = new LynX39\LaraPdfMerger\PdfManage;
+$pdf = new Jidagob\LaraPdfMerger\PdfManage;
 
 $pdf->addPDF('samplepdfs/one.pdf', '1, 3, 4');
 $pdf->addPDF('samplepdfs/two.pdf', '1-2');
